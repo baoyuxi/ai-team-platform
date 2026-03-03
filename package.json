@@ -1,0 +1,36 @@
+{
+  "name": "ai-team-platform",
+  "version": "0.1.0",
+  "description": "多 AI Agent 团队协作平台 - 一个人 + AI 团队 = 完整软件开发能力",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "team",
+    "collaboration",
+    "llm",
+    "claude"
+  ],
+  "author": "包玉玺 <Brain>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "prettier": "^3.2.0",
+    "turbo": "^1.12.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
