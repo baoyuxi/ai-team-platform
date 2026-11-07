@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NotesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="notes-spring" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.notes.NotesApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
